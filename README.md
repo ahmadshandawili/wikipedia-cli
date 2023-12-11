@@ -1,7 +1,7 @@
-# Wikipedia
+# Wikipedia-cli
 Command-Line Based Wikipedia Search Engine
 
-# Wikipedia-Cli Demo
+# Demo - How to use
 ![](https://https://github.com/ahmadshandawili/wikipedia-cli/blob/main/wikipedia-cli-demo.gif)
 
 ## Dependencies
