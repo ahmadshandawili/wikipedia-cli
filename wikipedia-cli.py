@@ -33,7 +33,7 @@ class colors:
     UNDERLINE = '\033[4m'
 
 def write(x,y,text,color=""): # Writes text at x, y
-    sys.stdout.write(color+"\x1b7\x1b[%d;%df%s\x1b8" % (y, x, text)+colors.ENDC) # Black magic
+    sys.stdout.write(color+"\x1b7\x1b[%d;%df%s\x1b8" % (y, x, text)+colors.ENDC)
 
 def drawHorizontal(y,x1,x2,startChar,midChar,endChar): # Draws a horizontal line
     line = startChar+midChar*(x2-x1-2)+endChar
